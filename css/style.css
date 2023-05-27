@@ -26,7 +26,8 @@ body {
   gap: 30px;
 
   width: 1050px;
-  margin: 100px auto;
+  margin: 60px auto;
+  margin-bottom: 20px;
 }
 
 .daniel {
@@ -62,7 +63,7 @@ body {
 .patrick,
 .kira {
   padding: 20px 30px;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 30px 30px 20px rgba(0, 0, 0, 0.02);
 }
 
@@ -76,8 +77,8 @@ body {
   color: hsla(217, 30%, 14%);
 }
 
-.kira .qoute,
-.jeanette .qoute {
+.kira .quote,
+.jeanette .quote {
   color: hsla(217, 30%, 14%, 0.7);
 }
 
@@ -87,16 +88,13 @@ body {
 
 .icon {
   position: absolute;
-  left: 37.2%;
-  top: 14%;
+  left: 37%;
+  top: 8.2%;
 }
 
 .profile {
   display: flex;
   column-gap: 10px;
-}
-
-.profile--img {
 }
 
 .profile--name {
@@ -112,9 +110,6 @@ body {
   height: 30px;
 }
 
-.name {
-}
-
 .description {
   color: hsla(0, 0%, 81%, 0.5);
 }
@@ -125,14 +120,16 @@ body {
   font-size: 19px;
 }
 
-.qoute {
+.quote {
   color: hsla(0, 0%, 81%, 0.7);
   margin-top: 20px;
+  line-height: 1.5;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: black;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
